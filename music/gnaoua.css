@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto',sans-serif;
+}
+.cl1{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(12, 3, 109, 0.542), rgba(198, 85, 24, 0.536)), url(image/IMG_0228.JPG);
+    background-position: center;
+    background-size: cover;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing:border-box;
+}
+.logo{
+    width:60px;
+}
+.cl3{
+    height: 88%;
+    align-items:center ;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20vh;
+    
+
+
+}
+.minicl1{
+    flex-basis: 50%;
+}
+h1{
+    color:#fff;
+    font-size:80px;
+    line-height: 150px;
+    font-weight: bolder;
+    text-shadow: 0 0 0.5em #22064d, 0 0 0.5em rgba(56, 42, 136, 0.921), 0 0 0.5em rgba(193, 77, 20, 0.647) 
+
+    
+}
+h2{
+    color:rgb(140, 86, 10);
+    text-shadow :0 0 0.5em #fdab52, 0 0 0.5em #9772e097,0 0 0.5em #bab4dbb1;
+    line-height:50px;
+    font-size:30px;
+    margin-top:40px;
+    font-weight:bold;
+    text-decoration:underline;
+    
+}
+.h2{
+    margin-top:100px;
+}
+.p1{
+    color:#fff;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom:40px;
+    text-align:center;
+    text-shadow: 0 0 0.5em #4d3c8bac, 0 0 0.5em rgba(197, 148, 58, 0.766), 0 0 0.5em rgba(210, 139, 77, 0.8) 
+}
+.p1::first-letter{
+    color:#fff;
+}
+p{
+    color:#000;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom:20px;
+    text-align: left; 
+    margin-left:0px;
+    
+}
+a:visited{text-decoration: underline;}
+button{
+    width:170px;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    padding:12px 0;
+    background:linear-gradient( rgba(65, 4, 145, 0.637), rgba(183, 74, 15, 0.642));
+    border:0;
+    border-radius:20px;
+    cursor:pointer;
+    outline:none;
+    margin-top:30px;
+    margin-bottom:120px;
+}
+h4{
+    color:#bc3911;
+    text-decoration:underline;
+    text-shadow: 0 0 0.3em #6d2b0fcb
+}
+b{
+    color:#d55611d3
+}
+p::first-letter{
+    color:#d3401cd7;
+    font-weight:bold;
+    font-size:26px;
+}
+p.bb{
+    color:#311171af;
+    text-decoration: underline;
+    font-weight:bold;
+}
+.bb::first-letter{
+    color:#491f8abb;
+}
