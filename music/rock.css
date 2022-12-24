@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.cl1{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(12, 12, 12, 0.536), rgba(12, 12, 12, 0.536)), url(image/pink.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing:border-box;
+}
+.logo{
+    width:60px;
+}
+.cl3{
+    height: 88%;
+    align-items:center ;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20vh;
+    
+
+
+}
+.minicl1{
+    flex-basis: 50%;
+}
+h1{
+    color:#fff;
+    font-size:100px;
+    line-height: 150px;
+    font-weight: bolder;
+    text-shadow: 0 0 0.5em #b5b3b7, 0 0 0.5em rgb(112, 112, 112), 0 0 0.5em rgb(177, 176, 182) 
+
+    
+}
+h2{
+    color:rgb(42, 42, 42);
+    text-shadow :0 0 0.5em #827c7e, 0 0 0.5em #605f60,0 0 0.5em #9e9ea1;
+    line-height:50px;
+    font-size:30px;
+    margin-top:40px;
+    font-weight:bold;
+    text-decoration:underline;
+    
+}
+.h2{
+    margin-top:100px;
+}
+.p1{
+    color:#fff;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom:40px;
+    text-align:center;
+    text-shadow: 0 0 0.5em #37353a, 0 0 0.5em rgb(112, 111, 122), 0 0 0.5em rgb(146, 139, 187) 
+}
+.p1::first-letter{
+    color:#fff;
+}
+p{
+    color:#000;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom:20px;
+    text-align: left; 
+    margin-left:0px;
+    
+}
+a:visited{text-decoration: underline;}
+button{
+    width:170px;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    padding:12px 0;
+    background:rgba(112, 112, 112, 0.656);
+    border:0;
+    border-radius:20px;
+    cursor:pointer;
+    outline:none;
+    margin-top:30px;
+    margin-bottom:150px;
+}
+b{
+    color:#010137bf
+}
+p::first-letter{
+    color:#0b1930;
+    font-weight:bold;
+    font-size:26px;
+}
