@@ -82,7 +82,7 @@ button{
     font-size:12px;
     font-weight:bold;
     padding:12px 0;
-    background:rgba(44, 37, 86, 0.681);
+    background:linear-gradient( rgba(16, 24, 89, 0.637), rgba(228, 203, 149, 0.642));
     border:0;
     border-radius:20px;
     cursor:pointer;

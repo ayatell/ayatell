@@ -80,3 +80,9 @@ button{
     outline:none;
     margin-top:30px;
 }
+option{
+    color:#000;
+}
+select{
+    color:#fff;
+}
